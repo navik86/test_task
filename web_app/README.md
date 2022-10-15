@@ -1,6 +1,8 @@
 ## Launching the project
 - ```git clone https://github.com/navik86/test_task.git```
-- ```cd web_app```
+- ```cd web_app/lab_app```
+- ```mv .env.example .env```
+- ```cd ..```
 - ```docker-compose up -d --build```
 - ```docker-compose exec lab_app python manage.py migrate --noinput```
 
